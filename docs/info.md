@@ -8,25 +8,16 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
 It is a 8 bit R2R ladder DAC, which digital signals to analog for GPR Application. The digital signal from the processor is converted and then given to the antenna. 
 
 ## How to test
-
 DAC Test Setup
-
 The DAC can be tested using two different modes: External Data Mode and Internal Sawtooth Wave Generator Mode.
-
 1. External Data Mode
-
 In this mode, the DAC receives digital inputs from an external source.
-
 Steps:
-
 Set External Data Input = HIGH to enable external data mode.
-
 Apply digital values to the 8 input pins of the DAC.
-
 Observe the corresponding analog output produced by the DAC.
 
 ## External hardware
