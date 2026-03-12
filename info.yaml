@@ -15,7 +15,7 @@ project:
   uses_3v3: true                 # ✅ You’re using 3.3V output
 
   # Your top module name must start with "tt_um_". Must match your Verilog top module exactly!
-  top_module:  "tt_um_r2r_dac_3v3"
+  top_module:  "tt_um_dac_test3v3"
 
   # List your project's source files here. Source files must be in ./src
   source_files:        
